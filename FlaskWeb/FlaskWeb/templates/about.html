@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1><strong>{{a1}}</strong></h1>
+    </div>
+
+    <div class="row">
+            <div class="col-md-4">
+                <h2>{{ac1}}</h2>
+                <p>
+                    {{ap2}}
+                </p>
+                <p><a class="btn btn-primary btn-large" href="cell1">{{ax}} &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>{{ac2}}</h2>
+                <p>{{ap1}}</p>
+                <p><a class="btn btn-primary btn-large" href="cell2">{{ax}} &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>{{ac3}}</h2>
+                <p>{{ap1}}</p>
+                <p><a class="btn btn-primary btn-large" href="cell3">{{ax}} &raquo;</a></p>
+            </div>
+    </div>
+
+{% endblock %}

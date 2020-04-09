@@ -1,0 +1,22 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h2><strong>Ячейка хранения №1(маленькая)</strong></h2>
+        </div>
+        <h3>Состояние: <strong>{{ap2}}</strong>.</h3>
+    
+        <p>
+            Время начала аренды:<strong>{{tm}}</strong>.
+        </p>
+
+
+
+        <p>
+            Имя пользователя: <strong>{{nik}}</strong>. <br />
+            RFID пользователя: <strong>{{rfi}}</strong>. <br />
+        </p>
+
+        <p><a class="btn btn-default" href="about">Назад &raquo;</a></p>
+
+        {% endblock %}
