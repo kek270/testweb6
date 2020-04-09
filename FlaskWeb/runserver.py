@@ -1,7 +1,3 @@
-"""
-This script runs the FlaskWeb application using a development server.
-"""
-
 from os import environ
 from FlaskWeb import app
 
